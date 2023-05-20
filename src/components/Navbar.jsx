@@ -61,7 +61,7 @@ export default function Navbar() {
             color={useColorModeValue('gray.800', 'white')}
             onClick={()=>navigate("/")}
           >
-            Logo
+            Home
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
